@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# Profile Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Table of Contents**
+- [Profile Tracker](#profile-tracker)
+  - [Requirements](#requirements)
+  - [Database Setup](#database-setup)
+  - [User Registration and Authentication](#user-registration-and-authentication)
+  - [API Integration](#api-integration)
+  - [Problem Tracking System](#problem-tracking-system)
+  - [Email Notifications](#email-notifications)
+  - [Problem Status and Priority](#problem-status-and-priority)
+  - [Admin Panel](#admin-panel)
+  - [User Dashboard](#user-dashboard)
+  - [Testing and Deployment](#testing-and-deployment)
+  - [Security Measures](#security-measures)
+  - [Documentation](#documentation)
+  - [User Support](#user-support)
+  - [Continuous Improvement](#continuous-improvement)
 
-## Available Scripts
+## Requirements
 
-In the project directory, you can run:
+1. **Identify Coding Platforms:**
+   - Specify the coding platforms you want to integrate with (e.g., LeetCode, Codeforces, HackerRank).
+   
+2. **Information to Track:**
+   - Determine the information to track for each problem (e.g., problem title, description, status, priority, user email).
 
-### `npm start`
+## Database Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Create a Database:**
+   - Set up a database to store problem data and user information.
+   - You can use a relational database like MySQL or PostgreSQL.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## User Registration and Authentication
 
-### `npm test`
+4. **User Registration and Authentication:**
+   - Implement user registration and authentication.
+   - Link user email addresses to their accounts on coding platforms.
+   - OAuth can be used for authentication.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## API Integration
 
-### `npm run build`
+5. **API Integration:**
+   - Integrate with coding platforms' APIs to fetch problem data.
+   - Each platform may have its API; authenticate and request data using API calls.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Problem Tracking System
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+6. **Problem Tracking System:**
+   - Create a web application using chosen technologies (JavaScript, React, etc.).
+   - Users can report issues stored in the database with fields like problem title, description, platform, and user email.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Email Notifications
 
-### `npm run eject`
+7. **Email Notifications:**
+   - Implement email notifications to alert users of updates to their reported problems.
+   - Libraries like Nodemailer (for Node.js) can be used for sending emails.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Problem Status and Priority
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+8. **Problem Status and Priority:**
+   - Allow users to set the status (e.g., open, in progress, resolved) and priority (e.g., high, medium, low) for reported problems.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Admin Panel
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+9. **Admin Panel:**
+   - Create an admin panel to manage and prioritize reported problems.
+   - Admins can assign problems to developers, change their status, and set priorities.
 
-## Learn More
+## User Dashboard
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+10. **User Dashboard:**
+    - Implement a user dashboard where users can see the status of their reported problems and any updates.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Testing and Deployment
 
-### Code Splitting
+11. **Testing and Deployment:**
+    - Test the application thoroughly to ensure it works as expected.
+    - Deploy the application to a web server or a cloud platform like AWS, Heroku, or Azure.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Security Measures
 
-### Analyzing the Bundle Size
+12. **Security Measures:**
+    - Implement security measures to protect user data and prevent unauthorized access.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Documentation
 
-### Making a Progressive Web App
+13. **Documentation:**
+    - Create documentation for your application, including how to use it and how to integrate with different coding platforms.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## User Support
 
-### Advanced Configuration
+14. **User Support:**
+    - Provide user support for any issues or questions users may have while using your problem tracker.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Continuous Improvement
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+15. **Continuous Improvement:**
+    - Collect feedback from users and make improvements to your problem tracker based on their suggestions and needs.
